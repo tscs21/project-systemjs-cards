@@ -1,0 +1,38 @@
+{
+  "name": "project-systemjs-cards",
+  "version": "1.0.0",
+  "description": "playing cards",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start karma.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tscs21/systemjs-cards.git"
+  },
+  "author": "tim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tscs21/systemjs-cards/issues"
+  },
+  "homepage": "https://github.com/tscs21/systemjs-cards#readme",
+  "devDependencies": {
+    "jasmine-core": "^2.5.2",
+    "jspm": "^0.16.47",
+    "karma": "^1.3.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jasmine": "^1.0.2",
+    "karma-jspm": "^2.2.0",
+    "karma-junit-reporter": "^1.1.0"
+  },
+  "jspm": {
+    "dependencies": {
+      "underscore": "npm:underscore@^1.8.3"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  }
+}
